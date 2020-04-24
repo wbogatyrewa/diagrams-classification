@@ -1,4 +1,4 @@
-!pip install -U git+https://github.com/albu/albumentations
+#!pip install -U git+https://github.com/albu/albumentations
 
 import numpy as np
 import pandas as pd
@@ -23,8 +23,8 @@ from google.colab import drive
 drive.mount('/content/drive')
 
 # копирование и распаковка датасета с гугл диска
-!cp /content/drive/My\ Drive/korpus-ml-2.zip /content/
-!unzip /content/korpus-ml-2.zip -d /content/dataset
+#!cp /content/drive/My\ Drive/korpus-ml-2.zip /content/
+#!unzip /content/korpus-ml-2.zip -d /content/dataset
 
 # путь к данным
 PATH = '/content/dataset/'
